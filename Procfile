@@ -1,0 +1,1 @@
+celery -A library worker --loglevel=info --pool=solo
