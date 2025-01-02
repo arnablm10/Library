@@ -118,7 +118,7 @@ REPORTS_DIR = BASE_DIR / 'reports'
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'library-production-a0cd.up.railway.app']
 # Logging Configuration
 LOGGING = {
     'version': 1,
